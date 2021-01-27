@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style 
+      include ../static/style.css
+
+block content
+
+    section#introsection
+       div Welcome to Ayushi's Dance Academy
+       div.small Dancers don't need wings to fly
+
+    section#missionSection
+       h2 Our Expertise
+       div.card
+        h3 JAZZ
+        div.card-box
+          div.card-img
+            img(src="../static/jazz.jpg")
+          p Jazz dancing is a form that showcases a dancer's originality. All jazz dancers interpret and execute moves and steps in their own way. This type of dancing consists of fancy footwork, big leaps, and quick turns. Learn this beautiful dance form from our expert teachers and mentors only at ADA.  
+       div.card
+        h3 CONTEMPORARY
+        div.card-box
+          div.card-img
+            img(src="../static/contemporary.jpeg")
+          p Contemporary dance is a style of expressive dance that combines elements of several dance genres including modern, jazz, lyrical and classical ballet. Contemporary dancers strive to connect the mind and the body through fluid dance movements.Learn this beautiful dance form from our expert mentors and teachers only at ADA.
+       div.card
+        h3 CLASSICAL
+        div.card-box
+          div.card-img
+            img(src="../static/classical.jpeg")
+          p  When it comes to dance, India has traditional, classical, folk and tribal dance styles and all are simply amazing. All the incredible classical dances originated in the country during the ancient times and still has its essence in 21st century.Learn this beautiful dance from our expert teachers and only at ADA.
+
+    section#sponsorsection
+       h3 Our Sponsors
+       div#sponsors
+          img(src='/static/sponsor1.png', alt="Sponsor Image" , class="spImage")
+          img(src='/static/sponsor2.jpeg', alt="Sponsor Image" , class="spImage")
+          img(src='/static/sponsor3.jpg', alt="Sponsor Image" , class="spImage")
+          img(src='/static/sponsor4.jpeg', alt="Sponsor Image" , class="spImage")

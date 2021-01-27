@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Pacifico&family=Potta+One&display=swap');
+#navbar{
+    background-color: rgb(2, 3, 63);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#navbar ul{
+   display: flex;
+   flex-direction: row;
+   /* justify-content: center; */
+   align-items: center;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 250px;
+    font-size: 20px;
+}
+
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+
+#navbar li{
+  list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    padding: 34px;
+    margin: 3px;
+   color: white;
+}
+
+#navbar li a:hover{
+   color: grey;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+#introsection{
+  font-family: 'Cinzel', serif;
+  font-size: 50px; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: center/ cover no-repeat url("/static/back_grd.jpg");
+  height: 500px;  
+}
+
+#introsection div.small{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+#missionSection{
+    height: 420px;
+    margin: auto;
+    background-color: rgba(115, 119, 119, 0.966);
+}
+
+#missionSection h2{
+    font-family: 'Yeon Sung',cursive;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+#missionSection div.card{
+    display: inline-block;
+    align-items: center;
+    border: 2px solid black;
+    margin: 12px 12px;
+    border-radius: 8px;
+    width: 31%;
+    height: 300px;
+    background-color: black;
+}
+
+#missionSection h3{
+    font-family: 'Yeon Sung',cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 2px;
+}
+
+.card h3{
+    background-color: black;
+    color: white;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   background-color: black;
+   color: white;
+}
+
+.card-img{
+    height: 254px;
+    width: 10px;
+}
+.card-img p{
+    z-index: 1;
+}
+.card-img img{
+    height: inherit;
+    z-index: -1;
+}
+
+#sponsorsection{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+    font-family: 'Yeon Sung' , cursive;
+    background-color: rgb(52, 117, 133);
+    height: 350px;  
+}
+
+#sponsorsection h3{
+    padding: 10px;
+    margin-bottom: 12px;
+    font-size: 40px;
+    color: white;
+}
+
+#sponsors{
+    display: inline;
+    align-items: center;
+}
+
+.spImage {
+    margin: 2px 20px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+#footer{
+    background-color: black;
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    color: white;
+}
